@@ -1,12 +1,49 @@
-# React + Vite
+#  ShoppyGlobe – E-commerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a responsive, dynamic e-commerce web app built with **React**, **Redux Toolkit**, **React Router**, and **Tailwind CSS**, inspired by the look and feel of Amazon.in. It allows users to browse products, view product details, and manage a shopping cart.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##   Features
 
-## Expanding the ESLint configuration
+-  Product listing with search functionality
+-  Product details page with full info
+-  Add to cart / Remove from cart
+-  Persistent cart using Redux Toolkit
+-  Smooth client-side routing using React Router
+-  Lazy loading with `React.lazy` and `Suspense`
+-  Responsive UI with Tailwind CSS
+-  Mobile-friendly & visually appealing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+| Technology       | Description                           |
+|------------------|---------------------------------------|
+| React            | Frontend library                      |
+| Redux Toolkit    | State management (cart, product data) |
+| React Router DOM | Routing between pages                 |
+| Tailwind CSS     | Styling & layout                      |
+| Vite             | Fast dev server & build tool          |
+| React Icons      | Icon library                          |
+
+---
+
+##  Screenshots
+
+| Home Page | Product Detail | Cart Page |
+|-----------|----------------|-----------|
+| ![Home](./screenshots/home.png) | ![Detail](./screenshots/product.png) | ![Cart](./screenshots/cart.png) |
+
+>  Make sure to create a `screenshots/` folder in your project and place relevant screenshots as `home.png`, `product.png`, and `cart.png`.
+
+---
+
+##  Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Raj-2151-raj/Shoppy-Globe.git
+cd Shoppy-Globe
