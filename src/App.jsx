@@ -5,6 +5,8 @@ import Footer from './components/Footer'; // ✅ Import Footer
 import Spinner from './components/Spinner';
 import './index.css';
 
+const SearchResults = lazy(() => import('./components/SearchResults'));
+
 const HeroBanner = lazy(() => import('./components/HeroBanner'));
 const ProductList = lazy(() => import('./components/ProductList'));
 const ProductDetail = lazy(() => import('./components/ProductDetail'));
@@ -29,6 +31,8 @@ function App() {
             />
             <Route path="/products/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/search" element={<SearchResults />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

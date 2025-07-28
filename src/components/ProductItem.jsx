@@ -11,19 +11,23 @@ function ProductItem({ product }) {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition hover:-translate-y-1">
-      <Link to={`/products/${product.id}`}>
+    <div className="bg-white rounded-2xl shadow-md p-4 hover:shadow-lg transition hover:-translate-y-1 flex flex-col h-full">
+      <Link to={`/products/${product.id}`} className="flex-1">
         <img
           src={product.thumbnail}
           alt={product.title}
-          className="w-full h-40 object-cover rounded-md mb-2"
+          className="w-full h-40 sm:h-44 md:h-48 object-cover rounded-md mb-3"
         />
-        <h2 className="text-lg font-semibold truncate">{product.title}</h2>
-        <p className="text-gray-700 font-medium mb-2">₹{product.price}</p>
+        <h2 className="text-base sm:text-lg font-semibold truncate mb-1">
+          {product.title}
+        </h2>
+        <p className="text-gray-700 font-medium mb-3 text-sm sm:text-base">
+          ₹{product.price}
+        </p>
       </Link>
       <button
         onClick={handleAddToCart}
-        className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded w-full"
+        className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded text-sm sm:text-base"
       >
         Add to Cart
       </button>

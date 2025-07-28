@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdDelete } from 'react-icons/md';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   increaseQuantity,
@@ -38,7 +39,7 @@ const Cart = () => {
                   <p className="text-lg font-semibold">{item.title}</p>
                   <p className="text-sm text-gray-600">₹{item.price}</p>
 
-                  {/* 🔘 Quantity Controls */}
+                  
                   <div className="flex items-center space-x-2 mt-2">
                     <button
                       className="px-2 bg-gray-200 rounded"
@@ -57,7 +58,7 @@ const Cart = () => {
                       className="ml-4 text-red-500"
                       onClick={() => dispatch(removeFromCart(item.id))}
                     >
-                      🗑️
+                      <MdDelete />
                     </button>
                   </div>
                 </div>

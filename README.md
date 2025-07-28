@@ -1,48 +1,61 @@
-#  ShoppyGlobe – E-commerce React Application
+# 🛍️ ShoppyGlobe – E-commerce React Application
 
-ShoppyGlobe is a responsive, dynamic e-commerce web app built with **React**, **Redux Toolkit**, **React Router**, and **Tailwind CSS**, inspired by the look and feel of Amazon.in. It allows users to browse products, view product details, and manage a shopping cart.
-
----
-
-##   Features
-
--  Product listing with search functionality
--  Product details page with full info
--  Add to cart / Remove from cart
--  Persistent cart using Redux Toolkit
--  Smooth client-side routing using React Router
--  Lazy loading with `React.lazy` and `Suspense`
--  Responsive UI with Tailwind CSS
--  Mobile-friendly & visually appealing
+**ShoppyGlobe** is a fully responsive e-commerce web application inspired by Amazon.in. Built with **React**, **Redux Toolkit**, **React Router**, and **Tailwind CSS**, it allows users to explore products, search and filter, view detailed product information, and manage a shopping cart with a sleek and modern UI.
 
 ---
 
-##  Tech Stack
+## ✨ Features
+
+- 🔍 Product search and filtering
+- 🛒 Add/Remove products from cart
+- 📦 View detailed product information
+- 🔁 Persistent cart using Redux Toolkit
+- 🌐 Routing using React Router
+- 🚀 Lazy loading with `React.lazy` and `Suspense`
+- 💡 Responsive & mobile-friendly UI
+- 🎨 Styled with Tailwind CSS
+- ⚡ Fast development using Vite
+
+---
+
+## 🧱 Tech Stack
 
 | Technology       | Description                           |
-|------------------|---------------------------------------|
-| React            | Frontend library                      |
-| Redux Toolkit    | State management (cart, product data) |
-| React Router DOM | Routing between pages                 |
-| Tailwind CSS     | Styling & layout                      |
-| Vite             | Fast dev server & build tool          |
-| React Icons      | Icon library                          |
+|------------------|----------------------------------------|
+| React            | UI library for building components     |
+| Redux Toolkit    | Efficient state management (cart, search) |
+| React Router DOM | SPA navigation and route handling      |
+| Tailwind CSS     | Utility-first CSS framework            |
+| Vite             | Lightning-fast build tool              |
+| React Icons      | Icon library                           |
 
 ---
 
-##  Screenshots
+## 📸 Screenshots
 
-| Home Page | Product Detail | Cart Page |
-|-----------|----------------|-----------|
-| ![Home](./screenshots/home.png) | ![Detail](./screenshots/product.png) | ![Cart](./screenshots/cart.png) |
+### 🏠 Home Page
+Displays product listings and search bar  
+![Home](screenshots/home.png)
 
->  Make sure to create a `screenshots/` folder in your project and place relevant screenshots as `home.png`, `product.png`, and `cart.png`.
+### 🔍 Search Results
+Results shown when a user searches for products  
+![Search](screenshots/search.png)
+
+### 📦 Product Details
+Displays detailed information about a selected product  
+![Detail](screenshots/detail.png)
+
+### 🛒 Cart Page
+Manage cart items with dynamic count and totals  
+![Cart](screenshots/cart.png)
+
+> Make sure to create a `/screenshots` folder in your project root and include the above images with correct file names.
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Raj-2151-raj/Shoppy-Globe.git
