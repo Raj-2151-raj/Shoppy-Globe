@@ -35,19 +35,19 @@
 
 ### 🏠 Home Page
 Displays product listings and search bar  
-![Home](screenshots/home.png)
+![Home](src/assets/image.png)
 
 ### 🔍 Search Results
 Results shown when a user searches for products  
-![Search](screenshots/search.png)
+![Search](src/assets/image.png)
 
 ### 📦 Product Details
 Displays detailed information about a selected product  
-![Detail](screenshots/detail.png)
+![Detail](src/assets/deatail.png)
 
 ### 🛒 Cart Page
 Manage cart items with dynamic count and totals  
-![Cart](screenshots/cart.png)
+![Cart](/src/assets/cart.png)
 
 > Make sure to create a `/screenshots` folder in your project root and include the above images with correct file names.
 
