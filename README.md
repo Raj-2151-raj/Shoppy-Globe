@@ -39,7 +39,7 @@ Displays product listings and search bar
 
 ### 🔍 Search Results
 Results shown when a user searches for products  
-![Search](src/assets/image.png)
+![Search](src/assets/Search.png)
 
 ### 📦 Product Details
 Displays detailed information about a selected product  

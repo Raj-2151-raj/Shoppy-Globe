@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation, Link } from 'react-router-dom'; // ✅ Link imported here
+import { useLocation, Link } from 'react-router-dom'; 
 
 const NotFound = () => {
   const location = useLocation();
