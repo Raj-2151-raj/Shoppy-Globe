@@ -1,24 +1,23 @@
-# 🛍️ ShoppyGlobe – E-commerce React Application
+#  ShoppyGlobe – E-commerce React Application
 
 **ShoppyGlobe** is a fully responsive e-commerce web application inspired by Amazon.in. Built with **React**, **Redux Toolkit**, **React Router**, and **Tailwind CSS**, it allows users to explore products, search and filter, view detailed product information, and manage a shopping cart with a sleek and modern UI.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Product search and filtering
-- 🛒 Add/Remove products from cart
-- 📦 View detailed product information
-- 🔁 Persistent cart using Redux Toolkit
-- 🌐 Routing using React Router
-- 🚀 Lazy loading with `React.lazy` and `Suspense`
-- 💡 Responsive & mobile-friendly UI
-- 🎨 Styled with Tailwind CSS
-- ⚡ Fast development using Vite
+-  Add/Remove products from cart
+-  View detailed product information
+-  Persistent cart using Redux Toolkit
+-  Routing using React Router
+-  Lazy loading with `React.lazy` and `Suspense`
+-  Responsive & mobile-friendly UI
+-  Styled with Tailwind CSS
+-  Fast development using Vite
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 | Technology       | Description                           |
 |------------------|----------------------------------------|
@@ -31,21 +30,21 @@
 
 ---
 
-## 📸 Screenshots
+##   Screenshots
 
-### 🏠 Home Page
+###   Home Page
 Displays product listings and search bar  
 ![Home](src/assets/image.png)
 
-### 🔍 Search Results
+###   Search Results
 Results shown when a user searches for products  
 ![Search](src/assets/Search.png)
 
-### 📦 Product Details
+###  Product Details
 Displays detailed information about a selected product  
 ![Detail](src/assets/deatail.png)
 
-### 🛒 Cart Page
+###  Cart Page
 Manage cart items with dynamic count and totals  
 ![Cart](/src/assets/cart.png)
 
@@ -53,7 +52,7 @@ Manage cart items with dynamic count and totals
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
