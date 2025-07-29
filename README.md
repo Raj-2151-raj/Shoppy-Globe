@@ -59,4 +59,6 @@ Manage cart items with dynamic count and totals
 
 ```bash
 git clone https://github.com/Raj-2151-raj/Shoppy-Globe.git
-cd Shoppy-Globe
+cd Vite-project
+npm intall
+npm run dev
